@@ -38,6 +38,9 @@ namespace C_sharp_lab_5
 
             // Задание 4 --------------------------------------------------------------------------
             testStringBuilder();
+
+            // Задание 6 --------------------------------------------------------------------------
+            chars();
         }
 
         // Задание 1 --------------------------------------------------------------------------
@@ -338,6 +341,60 @@ namespace C_sharp_lab_5
         }
         // Задание 4 --------------------------------------------------------------------------
 
+        // Задание 6 --------------------------------------------------------------------------
+        /*
+        Создайте несколько строк, инициализируя их различными способами;
+            char[] str1 = "Hello, World!";
+            string str2 = "Здравствуй, Мир!";
+        В каком случае выведется сообщение об ошибке и почему?
+        Напишите функцию PrintCharAr(), выводящую на экран массив символов, получаемый в качестве входящего параметра;
+        В цикле произвести вывод посимвольно: 
+            Console.Write(ar[i]);
+        Напишите функцию CharArrayToString(), обратную методу ToCharArray, т.е. преобразующую массив символов в строку;
+            String CharArrayToString(char[] ar) //функция возвращает объект типа String
+        Напишите функцию IndexOfStr, находящую индекс вхождения подстроки в строку:
+        Методически указания:
+            int IndexOfStr( char[]s1, char[] s2) // нахождение строки s2 в s1
+        Напишите процедуру TestIndexSym(), определяющую индексы вхождения символов и подстрок в строку;
+        Проанализируйте результаты выполнения всех функций.
+        */
 
+        public static void printCharAr(char[] par)
+        {
+            for(int i = 0; i < par.Length; i++)
+            {
+                Console.Write(par[i]);
+            }
+        }
+
+        public static string charArrayToString(char[] par)
+        {
+            StringBuilder res = new StringBuilder();
+
+            for (int i = 0; i < par.Length; i++)
+            {
+                res[i] = par[i];
+            }
+            return res.ToString();
+        }
+
+        public static int indexOfStr(char[] s1, char[] s2)
+        {
+            string ss1 = charArrayToString(s1);
+            string ss2 = charArrayToString(s2);
+            return ss1.IndexOf(ss2);
+        }
+
+        public static void chars()
+        {
+            string tmp = "Hello, World!";
+            char[] str1 = tmp.ToCharArray();
+            string str2 = "Здравствуй, Мир!";
+
+            Console.WriteLine();
+            printCharAr(str1);
+            Console.WriteLine();
+        }
+        // Задание 6 --------------------------------------------------------------------------
     }
 }

@@ -1,0 +1,6 @@
+Z:\DSTU\3 курс\3 курс\2 СЕМЕСТР\С#\C_sharp_lab_5\C_sharp_lab_5\C_sharp_lab_5\bin\Debug\C_sharp_lab_5.exe.config
+Z:\DSTU\3 курс\3 курс\2 СЕМЕСТР\С#\C_sharp_lab_5\C_sharp_lab_5\C_sharp_lab_5\bin\Debug\C_sharp_lab_5.exe
+Z:\DSTU\3 курс\3 курс\2 СЕМЕСТР\С#\C_sharp_lab_5\C_sharp_lab_5\C_sharp_lab_5\bin\Debug\C_sharp_lab_5.pdb
+Z:\DSTU\3 курс\3 курс\2 СЕМЕСТР\С#\C_sharp_lab_5\C_sharp_lab_5\C_sharp_lab_5\obj\Debug\C_sharp_lab_5.csprojResolveAssemblyReference.cache
+Z:\DSTU\3 курс\3 курс\2 СЕМЕСТР\С#\C_sharp_lab_5\C_sharp_lab_5\C_sharp_lab_5\obj\Debug\C_sharp_lab_5.exe
+Z:\DSTU\3 курс\3 курс\2 СЕМЕСТР\С#\C_sharp_lab_5\C_sharp_lab_5\C_sharp_lab_5\obj\Debug\C_sharp_lab_5.pdb
